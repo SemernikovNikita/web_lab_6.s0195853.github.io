@@ -1,0 +1,49 @@
+*{
+    font-family: "Century Gothic";
+    margin-top: 6px;
+}
+
+#center{
+    margin:auto;
+    max-width: 480px;
+    border: 3px solid grey;
+    border-radius:3%;
+    padding: 5px;
+}
+
+.service{
+    max-width: 280px;
+    margin: auto;
+}
+
+.name-head{
+    margin-left: 25%;
+}
+
+.listbox{
+    margin-top: 0px;
+    float: right;
+    margin-right: 25px;
+    width: 166px;
+}
+
+#count{
+    margin-top: 0px;
+    float: right;
+    margin-right: 25px;
+    width: 159px;
+}
+
+#calculate{
+    float: right;
+    margin-right: 25px;
+    width: 166px;
+    margin-top: 0px;
+}
+
+.characteristic{
+    margin-top: 0px;
+}
+
+
+

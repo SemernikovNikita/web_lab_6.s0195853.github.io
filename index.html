@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Лабораторная работа 6</title>
+    <link rel="stylesheet" href = "style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="center">
+        <h1 class="name-head">Калькулятор</h1>
+        
+        <div class="service">
+            <label><input type="radio" name="radio-group-1" value="1">Услуга 1</label>
+            <label><input type="radio" name="radio-group-1" value="2">Услуга 2</label>
+            <label><input type="radio" name="radio-group-1" value="3">Услуга 3</label>
+        </div>
+        <div class="enter">
+            <label for="count">Введите количество товара:</label>
+            <input type="number" id="count" value="1" min="1">
+        </div>
+
+
+        <div class="opt">
+            <select class="listbox" name="listbox" id="op">  
+                    <option value="1">Опция 1</option>
+                    <option value="2">Опция 2</option>
+                    <option value="3">Опция 3</option>
+            </select>
+            <label id="ischezni">Выберите доп. опции</label>
+        </div>
+
+        <div class="characteristic">
+            <label>
+                Использовать доп. свойство 
+                <input type="checkbox" name="check-1" value="10">
+            </label>
+        </div>
+
+        <div class="name">
+            <button id="calculate">
+                Подсчитать цену
+            </button>
+            <p id="result">Итоговая стоимость товаров: </p>
+        </div>
+    </div>
+</body>
