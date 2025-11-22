@@ -30,7 +30,7 @@ window.addEventListener('DOMContentLoaded',function(event){
         });
     });
     
-    document.getElementById('calculate').addEventListener('click', function() {
+    document.getElementById('calculate').addEventListener('input', function() {
             
             const count = parseInt(document.getElementById('count').value);
             
