@@ -1,4 +1,4 @@
-window.addEventListener('DOMContentLoaded', function(event) {
+document.addEventListener('DOMContentLoaded', function() {
     let currentRadioValue = "";
     function calculateTotal() {
         const countInput = document.getElementById('count');
